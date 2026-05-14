@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://agrotrack-api.onrender.com/api'
 
 function Sales() {
   const [sales, setSales] = useState([])

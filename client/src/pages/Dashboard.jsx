@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line } from 'recharts'
 
-const API = 'http://localhost:5000/api'
+const API = 'https://agrotrack-api.onrender.com/api'
 
 function Dashboard() {
   const [farmers, setFarmers] = useState([])
